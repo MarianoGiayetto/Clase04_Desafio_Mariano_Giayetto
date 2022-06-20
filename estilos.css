@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family:'Montserrat';
+}
+
+main{
+    background-color: rgb(202, 209, 209);
+    
+}
+/* Inicio Estilo Logo */
+.header__logo{
+    background-color:rgb(82, 243, 117);
+    text-align: center;    
+}
+
+.header__logo__imagen {    
+    width: 200px;
+    height: 100px;
+    margin:20px;          
+}
+
+.header__logo__texto{
+    font-family:'Dancing Script';
+    font-size: 60px;
+    color:rgb(0, 0, 0);
+    display: inline; 
+    position: absolute;
+    margin-top:20px;    
+}
+/* Fin Estilo Logo */
+
+
+/* Inicio Estilo Menu Navegación */
+.menu{
+    text-align: center;
+    background-color:rgb(22, 20, 19);
+    height:auto;   
+}
+
+.menu__item{
+    display: inline; 
+}
+
+.menu__link{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    padding-left:20px;
+    font-size:30px;      
+    transition: all 1s;
+    
+}
+
+.menu__link:hover{
+    background-color: rgb(207, 201, 201);
+    border-radius:10px;   
+}
+
+/* Fin Estilo Menu Navegación */
+
+
+.slide__imagen{
+    margin: 20px;
+    width: 500px;
+    height: auto;
+    
+    
+}
+.slide__texto{
+    font-size: 2em;
+    color:rgb(0, 0, 0);
+    display:inline-block;
+    position: absolute;
+    text-align: justify;
+    padding: 20px;    
+    
+}
+
+/* Inicio Estilo Nuestros trabajos */
+.titulo{
+    font-size:30px;  
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+   
+}
+
+
+.box{
+    display: inline-block;
+    padding: 5px;
+    margin-left:2%;
+    margin-right:2%;
+    
+    
+}
+
+.box__titulo{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.box__descr{
+    font-size:2rem;   
+    color: green;
+    text-align: center;
+}
+
+.box__img{
+    width: 400px; 
+    height: auto;    
+    padding: 10px;
+    opacity: 0.5;
+    transition: all 0.8s ease-in-out;
+}
+
+.box__img:hover{
+    opacity: 1;
+}
+/*Fin estilo nuestros trabajos  */
+
+/* Inicio Estilo Footer */
+.footer{
+    background-color: darkgrey;
+    height: 100px;
+} 
+
+.footer__logo {  
+    margin-left: 20px;  
+    width: 100px;
+    height: 50px;
+}
+
+.footer__redes{
+    padding: 20px;    
+    margin-top:10px;
+}
+
+.formulario{
+    margin:1%;
+    
+}
+
+.titulo__formulario{
+    font-size:2.5em;
+    
+}
+
+.titulo__etiqueta{
+    font-size:1.8em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tabla{
+    font-size:2em;
+    
+    
+}
+
+.tabla__titulo{
+    background-color: rgb(179, 191, 202);
+}
+
+tr,td,th{
+    border:solid 1px black;
+}
+
+.texto__nosotros{
+    font-size:1.5rem;
+    text-align:justify;
+    margin:5px;
+    margin-bottom: 0;
+}

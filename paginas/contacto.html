@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <!-- Inicio Header -->
+    <header class="header">        
+        
+        <div class="header__logo">
+            <img class="header__logo__imagen" src="../imagenes/PngItem_1866500.png" alt="logo">
+            <p class="header__logo__texto">Detail Garage</p>
+        </div>           
+                             
+        <nav>
+            <ul class="menu">
+                <li class="menu__item">
+                    <a class="menu__link" href="../index.html">Inicio</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./servicios.html">Servicios</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./galeria.html">Galeria</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./acerca_nosotros.html">Acerca de nosotros</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
+    <!-- Fin Header -->
+    <main>
+        <h2 class="titulo">Contacto</h2>
+        <form class="formulario" action="">
+            <fieldset>
+                <legend class="titulo__formulario">Información de contacto</legend>
+                <label class="titulo__etiqueta"for="Nombre">Nombre:</label>
+                <input type="text">
+                <p></p>
+                <label class="titulo__etiqueta" for="Apellido">Apellido:</label>
+                <input type="text">
+                <p></p>
+                <label class="titulo__etiqueta" for="Email">Email:</label>
+                <input type="email">
+                <p></p>
+                <label class="titulo__etiqueta" for="Sexo">Sexo:</label>
+                <select>
+                    <option value="-">-</option>
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                </select>
+                <p></p>
+                <label class="titulo__etiqueta">¿Desea recibir el Newsletter?</label>
+                <input type="checkbox" name="acepta" value="1">
+                <p></p>
+                <textarea placeholder="Escribe aquí tus comentarios" cols="30" rows="10"></textarea>
+                <p></p>
+                <input type="reset" value="Limpiar formulario">
+                <input type="submit" value="Enviar formulario">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <img class="footer__logo" src="../imagenes/PngItem_1866500.png" alt="logo">
+        <img class="footer__redes" src="../imagenes/facebook.png" alt="Facebook">
+        <img class="footer__redes" src="../imagenes/whatsapp.png" alt="Whatsapp">
+        <img class="footer__redes"  src="../imagenes/instagram (1).png" alt="instagram">
+    </footer>
+</body>
+</html>
